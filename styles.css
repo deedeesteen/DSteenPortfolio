@@ -12,6 +12,7 @@ header {
 	background-color: #e1d5f2;
 	margin: 0 auto;
 	position: relative;
+	border-bottom: 4px solid #8f72b8;
 }
 
 header img {
