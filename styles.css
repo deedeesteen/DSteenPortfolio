@@ -66,6 +66,14 @@ a {
     color: rgb(26, 102, 164);
 }
 
+a:hover {
+    color: #898989;
+}
+
+a:visited {
+    color: #8f72b8;
+}
+
 #whoami img {
     display: block;
     margin-left: auto;
@@ -76,20 +84,27 @@ a {
     border-radius: 50%;
 }
 
-#summary, #education {
+#summary {
     position: relative;
-    padding: 10px 100px 0 100px;
+    padding: 10px 100px 10px 100px;
+}
+
+#education, #experience, #certs {
+    position: relative;
+    padding: 10px 100px 10px 100px;
 }
 
 #experience {
-    position: absolute;
-    top: 495px;
-    left: 900px;
     list-style-type: square;
 }
 
-#summary h2, #education h2, #experience h2, #skills h2 {
+#certs {
+    padding-bottom: 60px;
+}
+
+#summary h2, #education h2, #experience h2, #certs h2 {
     font-size: 40px;
+    text-align: center;
 }
 
 ul {
@@ -97,14 +112,36 @@ ul {
     padding-left: 20px;
 }
 
+.special {
+    list-style-type: circle;
+}
+
 #skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 400px;
-    height: 400px;
-    padding: 10px 100px 0 100px;
-    border-radius: 15%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     background-color:black;
     color: #faf8f2;
+    padding-top: 10px;
+    max-width: 500px;
+    border-radius: 10%;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+table {
+    padding-bottom: 40px;
+    padding-left: 45px;
+}
+
+footer {
+    height: 60px;
+	background-color: #e1d5f2;
+	position: relative;
+	border-top: 4px solid #8f72b8;
+    margin-top: 50px;
+    text-align: center;
 }
