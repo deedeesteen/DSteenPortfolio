@@ -163,6 +163,10 @@ a:visited {
     border-width: 2px;
 }
 
+.icon:hover {
+    background-color: #faf8f2;
+}
+
 #projects {
     padding: 50px;
     text-align: center;
