@@ -14,32 +14,80 @@
     </head>
 
     <body>
-        <header>
-            <a href="index.html"><img src="logo.png" alt="Logo" class="logo"></img></a>
-            <h1 class="name">Dhana Steen</h1>
-            <h2 class="roles">UX/UI Designer | Web Developer | Software Developer</h2>
-            <div id="links" class="livvic-semibold">
-                <a href="resume.html" id="link">Resume</a>
-                <a href="projects.html" id="link">Projects</a>
-                <a href="contact.html" id="link">Contact Me</a>
-            </div>
-        </header>
+        <div id="page-container">
+            <div id="content-wrap">
+                <header>
+                    <div>
+                        <a href="index.html" class="logo"></a>
+                    </div>
+                    
+                    <div class="logo-text">
+                        <h1 class="name">Dhana Steen</h1>
+                        <h2 class="roles">UX/UI Designer | Web Developer | Software Developer</h2>
+                    </div>
+
+                    <div id="topnav" class="livvic-semibold">
+                        <a href="resume.html" class="link">Resume</a>
+                        <a href="projects.html" class="link">Projects</a>
+                    </div>
+                </header>
 
         <section id="whoami">
-            <img src="anim.png" alt="Animated Image"></img>
-            <h2>Hi there,</h2>
-            <p>I’m Dhana Steen, a passionate and creative Computer Science graduate from the University of Technology, Jamaica, 
-                with a strong focus on UX/UI design and front-end development. My foundation in Java, HTML, CSS, JavaScript, and tools 
-                like Figma and Adobe Creative Suite allows me to blend functionality with aesthetics to craft seamless digital experiences. 
-                I've earned certifications in UX Design, Digital Marketing, and Software Development through iCreate Institute under the NCB 
-                Foundation’s Level-Up Grant. With a commitment to continuous learning, I'm eager to collaborate, solve problems, and bring 
-                ideas to life through thoughtful design and clean code.
-            </p>
-        </section>
+            <div class="rotating">
+                        <p class="cinzel-decorative-bold">I am </p>
+                        <p>
+                            <span><h1 class="word cinzel-decorative-bold">Design-Focused</h1></span>
+                            <span><h1 class="word cinzel-decorative-bold">Code-Driven</h1></span>
+                            <span><h1 class="word cinzel-decorative-bold">Jamaica-Born</h1></span>
+                        </p>
+                    </div>
+                    <img src="anim.png" alt="Animated Image"></img>
+                    <p>A Computer Science graduate specializing in UX/UI Design and Front-End Development with a passion for
+                        blending tech and creativity.
+                   </p>
+                </section>
 
-        <footer>
+                <section id="contact">
+                    <h1 style="text-align: center;">Let's Get Connected!</h1>
+                        <div>
+                            <div class="contact-container">
+                                <a href="mailto:kerryshne99@yahoo.com"><img src="email.png" alt="Email Icon" class="icon"></img></a>
+                            </div>
+                            <div class="contact-container">
+                                <a href="https://www.linkedin.com/in/dhana-steen-a94376220/"><img src="linkedin.png" alt="LinkedIn Icon" class="icon"></img></a>
+                            </div>
+                            <div class="contact-container">
+                                <a href="https://github.com/deedeesteen"><img src="github.png" alt="GitHub Icon" class="icon"></img></a>
+                            </div>
+                        </div>
+                </section>
+
+                <section id="projects">
+                    <h1>Projects</h1>
+                    <div id="project-container">
+                        <div class="project">
+                            <img src="car-rental.png" alt="Car Rental App">
+                            <h2>Rent Rover</h2>
+                            <p>Car Rental App</p>
+                        </div>
+                        <div class="project">
+                            <img src="project2.png" alt="Project 2">
+                            <h2>Project 2</h2>
+                            <p>Description of Project 2.</p>
+                        </div>
+                        <div class="project">
+                            <img src="project3.png" alt="Project 3">
+                            <h2>Project 3</h2>
+                            <p>Description of Project 3.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        <footer id="footer">
             <a href="#"> Back to Top </a>
-            <p>&copy; Dhana Steen 2025</p>
+            <p>&copy; Dhana Steen 2025. All rights reserved.</p>
+            <p>Made in Jamaica.</p>
         </footer>
     </body>
 </html>
